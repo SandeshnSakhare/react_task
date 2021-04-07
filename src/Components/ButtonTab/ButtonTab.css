@@ -1,0 +1,32 @@
+.button-tab-c{
+    background-color: #606060; /* Green */
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button-tab-c:focus{
+    outline: none;
+  box-shadow: none;
+}
+
+.button-tab-c-active{
+  outline: none;
+  box-shadow: none;
+  background:#b3b3b3 !important;
+  color:black
+}
+
+
+.button-tab-c:active{
+    outline: none;
+  box-shadow: none;
+  background:#b3b3b3;
+  color:black
+}

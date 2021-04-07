@@ -1,0 +1,83 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width:auto;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .accordion div{
+      width:33.33%;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding-left:20px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width:90%;
+    margin:10px 0px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th{
+      background: black;
+      color:white;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .modal-display-content{
+    display: flex;
+  }
+
+  .modal-display-content div:first-child{
+    width:150px;
+  }
+
+  .modal-display-content div:nth-child(2){
+    width:300px;
+  }
+
+  .download-table-xls-button{
+    background-color: #606060;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: -5px 2px;
+    cursor: pointer;
+  }
+
+  .button-on-tab{
+    position: absolute;
+    top:15px;
+    right: 10%;
+    display: inline-block;
+  }

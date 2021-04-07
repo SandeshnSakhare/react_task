@@ -1,0 +1,71 @@
+.status-button-c {
+  display: flex;
+  border-bottom: 1px solid #606060;
+}
+
+.status-button-c-i{
+    padding-top:10px;
+}
+
+.status-button-c-i div:first-child{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 9px;
+    font-size: 29px;
+    margin:auto;
+}
+
+.status-button-c-i p{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.status-button-i {
+  width: 23%;
+  text-align: center;
+  background: #606060;
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  height:100px
+
+}
+
+.status-button-i-a {
+    width: 23%;
+    text-align: center;
+    background: #000;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    height:100px
+  }
+
+.status-button-i-a:after {
+  content: "";
+  position: absolute;
+  left: 41%;
+  bottom: -18%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #000;
+  clear: both;
+}
+
+.status-content-display{
+  margin-top:40px;
+}
+
+.button-tab-c-i{
+    display: flex;
+    justify-content: center
+}
